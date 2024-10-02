@@ -1,11 +1,10 @@
 
-const Navbar = ({switchTheme}) => {
+const Navbar = ({toggleTheme, isDarkMode}) => {
   return (
     <nav className='nav'>
-      <button onClick={switchTheme}>Toggle Night/Dark Mode</button>
-      <p>Home</p>
-      <p>Map</p>
-      <p>Chart</p>
+      <button onClick={toggleTheme}>
+          Switch to {isDarkMode ? 'Light' : 'Dark'} Mode
+      </button>
     </nav>
   )
 }
