@@ -13,3 +13,9 @@ HP needs a small application to list users that have access to a specific LLM mo
 
 ### Notes
 Use the fake people API to list the users: https://fake-json-api.mock.beeceptor.com/users
+
+### How to use 
+
+1. to install: `npm install`
+2. to run: `npm run dev`
+3. to test: `npm test`
